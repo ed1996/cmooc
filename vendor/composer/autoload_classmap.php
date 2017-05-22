@@ -6,9 +6,9 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Contact' => $baseDir . '/database/migrations/2017_05_21_200439_contact.php',
     'CreateArticlesTable' => $baseDir . '/database/migrations/2017_03_30_202822_create_articles_table.php',
     'CreateCommentsTable' => $baseDir . '/database/migrations/2017_05_07_211845_create_comments_table.php',
+    'CreateContact' => $baseDir . '/database/migrations/2017_05_22_065504_create_contact.php',
     'CreateFormationsTable' => $baseDir . '/database/migrations/2017_05_07_204725_create_formations_table.php',
     'CreatePasswordResetsTable' => $baseDir . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
     'CreatePostsTable' => $baseDir . '/database/migrations/2017_05_07_211522_create_posts_table.php',
@@ -17,7 +17,6 @@ return array(
     'File_Iterator' => $vendorDir . '/phpunit/php-file-iterator/src/Iterator.php',
     'File_Iterator_Facade' => $vendorDir . '/phpunit/php-file-iterator/src/Facade.php',
     'File_Iterator_Factory' => $vendorDir . '/phpunit/php-file-iterator/src/Factory.php',
-    'ForeignKeyContact' => $baseDir . '/database/migrations/2017_05_21_202253_foreign_key_contact.php',
     'Hamcrest\\Arrays\\IsArray' => $vendorDir . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArray.php',
     'Hamcrest\\Arrays\\IsArrayContaining' => $vendorDir . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContaining.php',
     'Hamcrest\\Arrays\\IsArrayContainingInAnyOrder' => $vendorDir . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContainingInAnyOrder.php',

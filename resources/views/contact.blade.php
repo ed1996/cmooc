@@ -39,7 +39,7 @@
             <div class="col-xs-12 col-sm-4 col-md-4">
                 <div id="login-box">
                     <div class="left">
-                        <form action="">
+                        <form method="post" action="{{ route('About.store') }}">
                             <input type="text" name="prénom" placeholder="Nom et prénom" />
                             <input type="text" name="email" placeholder="E-mail" />
                             <input type="text" name="message" placeholder="Message..." />

@@ -297,9 +297,9 @@ class ComposerStaticInit512fb7f483a549ed5c91aa01c441d031
     );
 
     public static $classMap = array (
-        'Contact' => __DIR__ . '/../..' . '/database/migrations/2017_05_21_200439_contact.php',
         'CreateArticlesTable' => __DIR__ . '/../..' . '/database/migrations/2017_03_30_202822_create_articles_table.php',
         'CreateCommentsTable' => __DIR__ . '/../..' . '/database/migrations/2017_05_07_211845_create_comments_table.php',
+        'CreateContact' => __DIR__ . '/../..' . '/database/migrations/2017_05_22_065504_create_contact.php',
         'CreateFormationsTable' => __DIR__ . '/../..' . '/database/migrations/2017_05_07_204725_create_formations_table.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
         'CreatePostsTable' => __DIR__ . '/../..' . '/database/migrations/2017_05_07_211522_create_posts_table.php',
@@ -308,7 +308,6 @@ class ComposerStaticInit512fb7f483a549ed5c91aa01c441d031
         'File_Iterator' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Iterator.php',
         'File_Iterator_Facade' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Facade.php',
         'File_Iterator_Factory' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Factory.php',
-        'ForeignKeyContact' => __DIR__ . '/../..' . '/database/migrations/2017_05_21_202253_foreign_key_contact.php',
         'Hamcrest\\Arrays\\IsArray' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArray.php',
         'Hamcrest\\Arrays\\IsArrayContaining' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContaining.php',
         'Hamcrest\\Arrays\\IsArrayContainingInAnyOrder' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContainingInAnyOrder.php',
