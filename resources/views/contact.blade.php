@@ -1,18 +1,5 @@
 @extends('layouts.app')
-<style>
-    @charset "UTF-8";
-    * {
-        padding: 0;
-        margin: 0; }
 
-
-    h4 {
-        color: white; }
-
-
-
-
-</style>
 
 
 @section('content')
@@ -37,7 +24,7 @@
             </div>
 
             <div class="col-xs-12 col-sm-4 col-md-4">
-                <div id="login-box">
+                <div class="login-box">
                     <div class="left">
                         <form method="POST" action="{{route('contact_store')}}">
                             {{csrf_field()}}

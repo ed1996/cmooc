@@ -7,12 +7,10 @@
 
     <div class="fond">
         <div class="row backbox">
-
-
             <div class=" col-lg-7 col-md-12 col-xs-12 textconnexion">
                 <p class="title">Vous n'avez pas de compte ?</p>
                 <p>Il est temps de s'inscrire pour connaitre et <br> apprendre de nouvelles technologies</p>
-                <button><a href="{{ url('/register') }}">Inscrivez-vous</a></button></p>
+                <a href="{{ url('/register') }}"><button>Inscrivez-vous</button></a></p>
             </div>
         </div>
 
