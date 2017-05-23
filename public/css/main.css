@@ -58,7 +58,8 @@ nav .navbar-nav > li > a {
     line-height: 40px;
     color: #515b69; }
 nav .navbar-nav > li > a:hover {
-    color: none; }
+    color: white;
+}
 nav .navbar-nav > li > a:hover:after {
     width: 100%; }
 nav .nav {
