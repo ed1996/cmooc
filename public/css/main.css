@@ -58,7 +58,8 @@ nav .navbar-nav > li > a {
     line-height: 40px;
     color: #515b69; }
 nav .navbar-nav > li > a:hover {
-    color: none; }
+    color: white;
+}
 nav .navbar-nav > li > a:hover:after {
     width: 100%; }
 nav .nav {
@@ -437,7 +438,8 @@ form.contact-form   {
         padding: 20px;
         text-align: center;
         border: 2px solid black;
-        height: 90%;
+        min-height: 430px;
+        padding: 20px;
         width: 38%;
         margin-top: -3%;
         z-index: 10;
@@ -447,13 +449,10 @@ form.contact-form   {
         margin-left: 53%;
     }
     .contact-form-connexion button{
-        padding: 7px;
         padding-bottom: 3%;
         padding-top: 3%;
         padding-left: 10%;
         padding-right: 10%;
-        margin-left: -31%;
-        bottom: 30px;
     }
     .editer p{
         font-size: 18px;
@@ -461,11 +460,8 @@ form.contact-form   {
         margin-top: 78px;
         margin-right: 0;
         margin-bottom: 5%;
-
     }
-
 }
-
 
 .textconnexion .title{
     right: 0;
@@ -501,26 +497,30 @@ form.contact-form   {
 
 }
 
-
-
 .contact-form-connexion h2{
     font-size:32px;
     color: #9367f3;
     margin-bottom: 10%;
 }
 
-
-
 .contact-form-connexion button{
-    background-color: #f0eef1;
-    border: 2px solid white;
+    position: relative;
+    margin-top: 70px;
     color: #9367f3;
+    background-color: #f0eef1;
     font-size: 16px;
-    box-sizing: content-box;
     font-weight: 400;
     border-radius: 10px;
-    position: absolute;
+    border: 0;
+    transition: 0.3s linear;
+}
 
+.contact-form-connexion button:focus {
+    outline: none;
+}
+.contact-form-connexion button:hover{
+    background: #9367f3;
+    color: #f0eef1;
 }
 
 h3 {
@@ -538,9 +538,17 @@ form.contact-form-connexion   {
 }
 
 .contact-form-connexion input{
-    height: 70px;
+    height: 50px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 300px;
+    font-family: 'Roboto';
+    font-weight: 100;
     border: none;
     font-size: 16px;
+}
+.contact-form-connexion input:focus {
+    outline:none;
 }
 
 .contact-form-connexion ul {
@@ -559,7 +567,7 @@ form.contact-form-connexion   {
     display:          inline-block;
     vertical-align:   middle;
     width:            3%;
-    margin:           0 0.5% 0 1%;
+    margin-right:20px;
     padding:          0;
     color:            #aaa;
 }
@@ -572,7 +580,11 @@ form.contact-form-connexion   {
 }
 
 
+/*******************************************************************************
 
+=============/////////////////////// FOOTER //////////////////==================
+
+********************************************************************************/
 
 footer {
     margin: 40px 0;
