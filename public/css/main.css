@@ -1018,17 +1018,16 @@ input[type="submit"]:active {
 
 ********************************************************************************/
 
-.faq {
-    padding-bottom: 30px;
-    background-image: url("../uploads/avatars/fond-degrade.jpg");
-    background-size: cover;
-}
+
 .faq h1 {
-    color: white;
+    background: -webkit-gradient(linear, left top, left bottom, from(#9367f3), to(#88bff1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-align: center;
+
 }
 .faq p {
-    color: white; }
+    color: black; }
 
 main {
 
@@ -1042,7 +1041,7 @@ main {
     background-color: #fff;
     margin: 0 auto;
     margin-top: 50px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); }
+    box-shadow: 0px 0px 5px #9367f3; }
 
 .topic {
     padding: 20px;
@@ -1059,7 +1058,7 @@ main {
     opacity: 0.7; }
 
 .expanded {
-    background-color: #f5f5f5;
+    background-color: rgba(238, 207, 243, 0.06);
     transition: all .3s ease-in-out; }
 
 .question {
@@ -1068,7 +1067,7 @@ main {
     padding-bottom: 20px;
     font-size: 18px;
     font-weight: 500;
-    color: #526ee4; }
+    color: #9367f3; }
 
 .answer {
     font-size: 16px;
