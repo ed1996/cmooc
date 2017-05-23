@@ -21,6 +21,11 @@ Route::get('/faq', function() {
     return view('faq');
 });
 
+Route::get('logout', function(){
+   Auth::logout();
+    return view('welcome');
+});
+
 
 Route::get('/home', 'HomeController@index');
 Route::resource('/formation', 'FormationController');

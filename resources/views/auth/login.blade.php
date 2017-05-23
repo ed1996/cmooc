@@ -51,37 +51,4 @@
 
 </div>
 
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <div class="col-lg-5">
-                    <ul>
-                        <a href="connexion.html"><li>Contactez-nous</li></a>
-                        <a href="inscription.html"><li>Inscrivez-vous</li></a>
-                        <a href=""><li>Proposer un cours ou une connaissance</li></a>
-                    </ul>
-                </div>
-                <div class="col-lg-3">
-                    <ul>
-                        <a href=""><li>Aide</li></a>
-                        <a href=""><li>Mentions légales</li></a>
-                        <a href=""><li>FAQ</li></a>
-                    </ul>
-                </div>
-                <div class="col-lg-4 RS">
-                    <p>Suivez-nous</p>
-                    <a href=""><div class="facebook"></div></a>
-                    <a href=""><div class="twitter "></div></a>
-                    <a href=""><div class="GooglePlus"></div></a>
-                </div>
-                <div class="col-lg-12">
-                    <hr>
-                    Copyright 2017. Tous les droits sont réservés à L4E, est une marque déposé par Camille Cordier, Edgar Bekier, Sally Cohen et Jérémy Bourel
-                </div>
-            </div>
-        </div>
-    </div>
-
-</footer>
 @endsection

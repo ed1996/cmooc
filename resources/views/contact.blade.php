@@ -43,7 +43,7 @@
                             {{csrf_field()}}
                             <input type="text" name="name" placeholder="Nom et prénom" />
                             <input type="text" name="email" placeholder="E-mail" />
-                            <input type="text" name="content" placeholder="Message..." />
+                            <textarea name="content" id="" cols="30" rows="10"></textarea>
                             <input type="submit" name="signup_submit" value="Envoyer" />
                         </form>
                     </div>
