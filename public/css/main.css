@@ -591,25 +591,25 @@ footer {
 }
 
 .col-lg-4 .facebook {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     display: inline-block;
     background: url("../uploads/avatars/téléchargement.png");
     background-size: cover;
 }
 
 .col-lg-4 .twitter {
-    height: 50px;
+    height: 40px;
     display: inline-block;
-    width: 50px;
+    width: 40px;
     background: url("../uploads/avatars/txitter.png");
     background-size: cover;
 }
 
 .col-lg-4 .GooglePlus {
-    height: 50px;
+    height: 40px;
     display: inline-block;
-    width: 50px;
+    width: 40px;
     background: url("../uploads/avatars/google-plus-icon-logo.png");
     background-size: cover;
 }
