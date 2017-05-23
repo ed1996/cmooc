@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Contact;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -30,12 +31,12 @@ class AboutController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param  \Illuminate\Http\Request  $request<
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
     {
-        $contact = new Contacts();
+        $contact = new Contact();
         $input = $request->input();
         $input['user_id'] = Auth::user()->id;
 
@@ -46,6 +47,7 @@ class AboutController extends Controller
                 'content' => 'required'
             ]);
 
+
         $contact->name = $request->name;
         $contact->email = $request->email;
         $contact->content = $request->content;
@@ -55,7 +57,7 @@ class AboutController extends Controller
             ->save();
 
         return redirect()->route('contact')
-            ->with('message', 'Thanks for contacting us!');
+            ->with('message', 'Merci de nous avoir contacté, nous vous contacterons en retour le plus vite possible !');
     }
 
     /**

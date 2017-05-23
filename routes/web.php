@@ -20,9 +20,8 @@ Auth::routes();
 Route::get('/faq', function() {
     return view('faq');
 });
-Route::get('/contact', function() {
-    return view('contact');
-});
+
+
 Route::get('/home', 'HomeController@index');
 Route::resource('/formation', 'FormationController');
 Route::resource('/post', 'PostController');

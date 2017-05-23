@@ -39,10 +39,11 @@
             <div class="col-xs-12 col-sm-4 col-md-4">
                 <div id="login-box">
                     <div class="left">
-                        <form method="post" action="{{ route('About.store') }}">
-                            <input type="text" name="prénom" placeholder="Nom et prénom" />
+                        <form method="POST" action="{{route('contact_store')}}">
+                            {{csrf_field()}}
+                            <input type="text" name="name" placeholder="Nom et prénom" />
                             <input type="text" name="email" placeholder="E-mail" />
-                            <input type="text" name="message" placeholder="Message..." />
+                            <input type="text" name="content" placeholder="Message..." />
                             <input type="submit" name="signup_submit" value="Envoyer" />
                         </form>
                     </div>
