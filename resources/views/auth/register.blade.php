@@ -18,11 +18,6 @@
                     <form class="form-horizontal" role="form" method="POST" action="{{ route('register') }}">
                       {{ csrf_field() }}
 
-
-
-
-
-
                       <select name="isAdmin" style="display:none;">
                             <option value="0">Utilisateur</option>
                             <option value="1">Administrateur</option>

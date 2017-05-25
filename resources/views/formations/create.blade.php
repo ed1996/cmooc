@@ -30,22 +30,12 @@
                         <form method="POST" action="{{ route('formation.store') }}">
                             {{csrf_field()}}
 
-                            <label class="newsujet" for="name">Catégorie du sujet</label>
-                                <a class="form-control btn-default btn-select btn-select-light">
-                                    <input type="hidden" class="btn-select-input" id="" name="" value="" />
-                                    <span class="btn-select-value">Catégorie du sujet</span>
-                                    <span class='btn-select-arrow glyphicon glyphicon-chevron-down'></span>
-                                    <ul>
-                                        <li>Option 1</li>
-                                        <li>Option 2</li>
-                                        <li>Option 3</li>
-                                        <li>Option 4</li>
-                                    </ul>
-                                </a>
 
 
                             <label class="newsujet" for="name">Titre du sujet</label>
-                            <input class="form-control" name="content" placeholder="Titre du sujet"></input><br>
+                            <input class="form-control" name="title" placeholder="Titre du sujet"><br>
+                            <label class="newsujet" for="name">Contenu du sujet</label>
+                            <input class="form-control" name="content" placeholder="Contenu"><br>
                             <label class="newsujet" for="name">Proposition ( .JPEG, .PDF )</label>
                             <textarea class="form-control" name="images" placeholder="Proposition"></textarea><br>
 
