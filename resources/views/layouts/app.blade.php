@@ -105,14 +105,13 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="col-lg-5 col-md-6 col-sm-6">
                         <ul>
-                            <a href=""><li>Contactez-nous</li></a>
-                            <a href=""><li>Inscrivez-vous</li></a>
+                            <a href="{{ url('/contact') }}"><li>Contactez-nous</li></a>
+                            <a href="{{ url('/register') }}"><li>Inscrivez-vous</li></a>
                             <a href=""><li>Proposer un cours ou une connaissance</li></a>
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <ul>
-                            <a href=""><li>Aide</li></a>
                             <a href=""><li>Mentions légales</li></a>
                             <a href="{{ url('/faq') }}"><li>FAQ</li></a>
                         </ul>

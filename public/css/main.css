@@ -49,7 +49,7 @@ nav .navbar-nav > li > a:after {
     width: 0%;
     bottom: 10px;
     left: 0;
-    background: purple;
+    background:#9367f3;
     transition: .3s ease; }
 nav .navbar-right {
     margin-left: 40% !important;
@@ -282,16 +282,48 @@ a{
 }
 
 
+.textconnexion button {
+    background-color: rgba(255, 255, 255, 0.29);
+    border: 2px solid white;
+    border-radius: 14px;
+    color: black;
+    font-size: 19px;
+    box-sizing: content-box;
+    font-weight: 400;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 31%;
+    padding-top: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
 
+}
+
+.contact-form h2{
+    font-size:32px;
+    color: #9367f3;
+    margin-bottom: 10%;
+}
+
+
+
+.contact-form- button:focus {
+    outline: none;
+}
+.contact-form- button:hover{
+    background: #9367f3;
+    color: #f0eef1;
+}
 .contact-form button{
     background-color: #f0eef1;
-    border: 2px solid white;
     color: #9367f3;
     font-size: 16px;
     box-sizing: content-box;
     font-weight: 400;
     border-radius: 10px;
-    position: absolute;
+    position: relative;
+    border: 0;
+    transition: 0.3s linear;
 
 }
 
@@ -1162,3 +1194,7 @@ main {
         margin-bottom: 30px;
         padding-left: 0px;
         padding-right: 0px; } }
+
+
+
+
