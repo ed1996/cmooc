@@ -122,8 +122,7 @@ nav img {
 }
 
 .backbox{
-    background-image: url("../uploads/avatars/fond.jpg");
-    -webkit-background-size: cover;
+    background: url("../uploads/avatars/fond.jpg");
     background-size: cover;
     width: 100%;
     position: absolute;
@@ -159,6 +158,9 @@ a{
         margin-top: 0;
 
     }
+    .backbox{
+        background: url("../uploads/avatars/fond.jpg") no-repeat center fixed;
+    }
 
 }
 @media screen and (min-width:760px) and (max-width:1024px){
@@ -186,6 +188,9 @@ a{
     .editer p {
         margin-top: 0;
 
+    }
+    .backbox{
+        background: url("../uploads/avatars/fond.jpg") no-repeat center fixed;
     }
 }
 
@@ -307,10 +312,10 @@ a{
 
 
 
-.contact-form- button:focus {
+.contact-form button:focus {
     outline: none;
 }
-.contact-form- button:hover{
+.contact-form button:hover{
     background: #9367f3;
     color: #f0eef1;
 }
@@ -376,6 +381,13 @@ form.contact-form   {
     border:           0;
     text-align:        left;
 }
+
+
+
+
+
+
+
 
 /*******************************************************************************
 
@@ -962,7 +974,6 @@ a {
 }
 .contact-for .input-text {
     display: block;
-
     height: 76px;
     border-width: 0 0 2px 0;
     border-color: #000;

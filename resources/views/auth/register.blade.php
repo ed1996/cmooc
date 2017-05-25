@@ -12,8 +12,6 @@
                 <button><a href="{{ url('/login') }}">Connectez-vous</a></button></p>
         </div>
 
-
-
         <div class=" col-lg-5 col-md-12 col-xs-12 contact-form">
             <h2>INSCRIPTION</h2>
                     <form class="form-horizontal" role="form" method="POST" action="{{ route('register') }}">
