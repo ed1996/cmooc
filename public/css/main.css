@@ -18,6 +18,9 @@ body{
     margin-right: 0px;
     margin-left: 0px;
 }
+.container-fluid{
+    padding: 0;
+}
 
 /*******************************************************************************
 
@@ -26,7 +29,7 @@ body{
 ********************************************************************************/
 
 nav .container-fluid .collapse, nav .container-fluid .navbar-collapse {
-    height: 80px !important; }
+    height: 80px !important;  }
 
 nav .container-fluid .collapse .navbar, nav .container-fluid .collapse .navbar-right, nav .container-fluid .navbar-collapse .navbar, nav .container-fluid .navbar-collapse .navbar-right {
     height: 80px !important; }
@@ -117,13 +120,14 @@ nav img {
     margin-top: -10px; }
 
 .container-fluid1{
-    min-height: 65vh;
+    min-height: 820px;
     width: 100%;
 }
 
 .backbox{
     background: url("../uploads/avatars/fond.jpg");
     background-size: cover;
+    height: 400px;
     width: 100%;
     position: absolute;
 }
@@ -131,24 +135,35 @@ nav img {
 a{
     color:inherit;
 }
-
+.container-fluid-register{
+    height: 480px;
+    margin-top: 120px;
+}
 
 @media screen and (max-width: 760px){
+    .container-fluid-register{
+        height: 820px;
+        margin-top: 0;
+    }
     .textcontent{
         font-size: 16px;
         color:white;
-
-    }        .contact-form{
-                 background-color: white;
-                 width:100%;
-                 z-index: 10;
-                 text-align: center;
-             }
-
+    }
+    .textcontent button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact-form{
+        background-color: white;
+        width:100%;
+        z-index: 10;
+        text-align: center;
+    }
     .contact-form button{
         margin-top: 2em;
-        margin-left: -20%;
         margin-bottom: 2em;
+        padding: 10px 15px;
     }
 
     .justeimage{
@@ -158,68 +173,65 @@ a{
         margin-top: 0;
 
     }
-    .backbox{
-        background: url("../uploads/avatars/fond.jpg") no-repeat center fixed;
-    }
 
 }
 @media screen and (min-width:760px) and (max-width:1024px){
+    .container-fluid-register{
+        height: 900px;
+    }
     .textcontent{
         min-height: 100%;
         font-size: 18px;
         color:white;
 
-    }        .contact-form{
-                 background-color: white;
-                 width:100%;
-                 z-index: 10;
-                 text-align: center;
-
-             }
+    }
+    .textcontent button {
+        display: block;
+        padding: 10px 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact-form{
+        background-color: white;
+        width:100%;
+        z-index: 10;
+        text-align: center;
+    }
     .contact-form button{
-        padding-bottom: 3%;
-        padding-top: 3%;
-        padding-left: 5%;
-        padding-right: 8%;
-        margin-left: -15%;
-        bottom: 30px;
+        padding: 15px 20px ;
+        margin-top: 30px;
         margin-bottom: -10em;
     }
     .editer p {
         margin-top: 0;
 
     }
-    .backbox{
-        background: url("../uploads/avatars/fond.jpg") no-repeat center fixed;
-    }
 }
 
-@media screen and (min-width:1024px) {
-    .fond{
-        width: 78%;
-        min-height: 60%;
-        position: absolute;
-        top:50%;
-        left:50%;
-        transform: translate(-50%, -50%);
-
-    }
-
+@media screen and (min-width:1024px) and (max-width:1200px){
     .textcontent{
         min-height: 100%;
         font-size: 18px;
+        line-height: 2em;
         color:white;
-        margin-top:65px;
-        margin-left: 40%;
-
+        margin-top:50px;
+        margin-left: 20%;
     }
-
+    .textcontent button {
+        display: block;
+        margin-left: 40%;
+    }
+    .textcontent p {
+        font-size: 1em;
+    }
+    .textcontent .title {
+        font-size: 1.3em;
+    }
     .contact-form{
         background-color: white;
         padding: 20px;
         text-align: center;
         border: 2px solid black;
-        height: 130%;
         width: 38%;
         margin-top: -3%;
         z-index: 10;
@@ -229,12 +241,47 @@ a{
         margin-left: 9%;
     }
     .contact-form button{
-        padding: 7px;
         padding-bottom: 3%;
         padding-top: 3%;
         padding-left: 10%;
         padding-right: 10%;
-        margin-left: -31%;
+        margin-top: 20px;
+
+    }
+
+    .justeimage{
+        margin-left: 9%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .textcontent{
+        min-height: 100%;
+        font-size: 18px;
+        color:white;
+        margin-top:65px;
+        margin-left: 40%;
+    }
+
+    .contact-form{
+        background-color: white;
+        padding: 20px;
+        text-align: center;
+        border: 2px solid black;
+        width: 38%;
+        margin-top: -3%;
+        z-index: 10;
+        position: absolute;
+        left: 0;
+        margin-right: 3%;
+        margin-left: 9%;
+    }
+    .contact-form button{
+        padding-bottom: 3%;
+        padding-top: 3%;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-top: 20px;
 
     }
 
@@ -260,49 +307,6 @@ a{
 }
 
 
-
-.textcontent button {
-    background-color: rgba(255, 255, 255, 0.29);
-    border: 2px solid white;
-    border-radius: 14px;
-    color: black;
-    font-size: 19px;
-    box-sizing: content-box;
-    font-weight: 400;
-    padding: 10px;
-    margin-top: 20px;
-    margin-left: 31%;
-    padding-top: 2%;
-    padding-left: 4%;
-    padding-right: 4%;
-}
-
-.contact-form h2{
-    font-size:32px;
-    color: #9367f3;
-    margin-bottom: 10%;
-}
-
-<<<<<<< HEAD
-=======
-
-.textconnexion button {
-    background-color: rgba(255, 255, 255, 0.29);
-    border: 2px solid white;
-    border-radius: 14px;
-    color: black;
-    font-size: 19px;
-    box-sizing: content-box;
-    font-weight: 400;
-    padding: 10px;
-    margin-top: 20px;
-    margin-left: 31%;
-    padding-top: 2%;
-    padding-left: 4%;
-    padding-right: 4%;
-
-}
-
 .contact-form h2{
     font-size:32px;
     color: #9367f3;
@@ -318,18 +322,13 @@ a{
     background: #9367f3;
     color: #f0eef1;
 }
->>>>>>> 174c1851f4cd8c720cc2dd2b749e9df86c3da9f3
 .contact-form button{
     background-color: #f0eef1;
     color: #9367f3;
     font-size: 16px;
-    box-sizing: content-box;
-    font-weight: 400;
     border-radius: 10px;
-    position: relative;
     border: 0;
-    transition: 0.3s linear;
-
+    transition: .3s linear;
 }
 
 /* Fade In & Out*/
@@ -352,6 +351,7 @@ form.contact-form   {
     height: 70px;
     border: none;
     font-size: 16px;
+    font-weight: 100;
 }
 
 .contact-form ul {
@@ -375,19 +375,29 @@ form.contact-form   {
     color:            #aaa;
 }
 
-.contact-form input[type="text"]  {
+.contact-form input[type="text"], .contact-form input[type="email"], .contact-form input[type="password"]  {
     width:            90%;
     margin:           0;
     border:           0;
     text-align:        left;
+    padding-left: 10px;
 }
 
-
-
-
-
-
-
+.textcontent button{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.29);
+    border: 2px solid white;
+    border-radius: 14px;
+    color: black;
+    font-size: 19px;
+    font-weight: 400;
+    margin-top: 20px;
+    padding: 10px 20px;
+    transition: .3s linear;
+}
+.textcontent button:hover {
+    background: white;
+}
 
 /*******************************************************************************
 
@@ -406,12 +416,10 @@ form.contact-form   {
                  width:100%;
                  z-index: 10;
                  text-align: center;
-                 margin-top: 79%;
              }
 
     .contact-form-connexion button{
         margin-top: 1em;
-        margin-left: -20%;
         margin-bottom: 2em;
     }
 
@@ -442,9 +450,7 @@ form.contact-form   {
         padding-top: 3%;
         padding-left: 5%;
         padding-right: 8%;
-        margin-left: -15%;
-        bottom: 30px;
-        margin-bottom: -10em;
+        margin-bottom: 30px;;
     }
     nav .navbar-right {
         margin-left: 23% !important;
@@ -456,14 +462,11 @@ form.contact-form   {
 
 @media screen and (min-width:1024px) {
     .fond{
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
         width: 78%;
-        min-height: 60%;
-        position: absolute;
-        top:50%;
-        left:50%;
-        transform: translate(-50%, -50%);
-
-
+        transform: scale(0.9);
     }
     .bienvenue{
         text-align: center;
@@ -477,19 +480,15 @@ form.contact-form   {
     }
 
     .contact-form-connexion{
+        position: absolute;
         background-color: white;
         padding: 20px;
         text-align: center;
         border: 2px solid black;
-        min-height: 430px;
-        padding: 20px;
+        height: 480px;
         width: 38%;
         margin-top: -3%;
-        z-index: 10;
-        position: absolute;
-        left: 0;
-        margin-right: 3%;
-        margin-left: 53%;
+        margin-left: 59%;
     }
     .contact-form-connexion button{
         padding-bottom: 3%;
@@ -505,7 +504,10 @@ form.contact-form   {
         margin-bottom: 5%;
     }
 }
-
+.textconnexion{
+    text-align: center;
+    padding: 0;
+}
 .textconnexion .title{
     right: 0;
     font-weight: 600;
@@ -516,12 +518,8 @@ form.contact-form   {
 
 .textconnexion p {
     font-weight: 100;
-    text-align: center;
     margin-bottom: 30px;
-    margin-left: 10%;
 }
-
-
 
 .textconnexion button {
     position: relative;
@@ -532,8 +530,8 @@ form.contact-form   {
     font-size: 19px;
     font-weight: 400;
     margin-top: 20px;
-    margin-left: 31%;
     padding: 10px 20px;
+    cursor:pointer;
     transition: .3s linear;
 }
 
@@ -548,18 +546,14 @@ form.contact-form   {
 }
 
 .contact-form-connexion button{
-    margin-top: 28px;
-    text-align: center;
-    padding: 7px 20px;
-    background: #8d87b5;
-    border: none;
-    border-radius: 2px;
-    color: #FFF;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
-    transition: 0.1s ease;
-    cursor: pointer;
+    background-color: #f0eef1;
+    color: #9367f3;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 20px;
+    transition: .3s linear;
+    padding: 10px 15px;
 }
 
 .contact-form-connexion button:focus {
@@ -588,7 +582,7 @@ form.contact-form-connexion   {
     height: 50px;
     padding: 10px;
     margin-top: 20px;
-    width: 300px;
+    width: 90%;
     font-family: 'Roboto';
     font-weight: 100;
     border: none;
@@ -734,12 +728,6 @@ ul {
 a {
     text-decoration: none;
 }
-
-
-
-
-
-
 
 .violet {
     margin:0;
@@ -889,32 +877,32 @@ a {
 
 [class*='large-']{
     background: #000;
-   width: 90%;
+    width: 90%;
     margin: 0 auto;
     padding: 30px;
     display: none;
 }
 
 [class*='large-'] img{
-     width: 100%;
-     max-width: 100%;
-     margin: 0 auto;
- }
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
 
 
 
 
 
 [class*='thumbnail-']{
-     overflow: hidden;
-     padding: 0;
-     position: relative;  }
+    overflow: hidden;
+    padding: 0;
+    position: relative;  }
 
 [class*='thumbnail-']:hover img{
-     transition: .3s linear;
-     transition-delay: 300ms;
-     transform: /* rotate(5deg) */ scale(1.4);
- }
+    transition: .3s linear;
+    transition-delay: 300ms;
+    transform: /* rotate(5deg) */ scale(1.4);
+}
 
 [class*='thumbnail-'] > .caption {
     display: none;
@@ -927,9 +915,9 @@ a {
 }
 
 [class*='thumbnail-']:hover > .caption{
-     display: block;
+    display: block;
 
- }
+}
 /*******************************************************************************
 
 =============/////////////////////// CONTACT //////////////////=================
@@ -970,21 +958,6 @@ input:focus {
     outline: none;
 }
 
-<<<<<<< HEAD
-input[type="text"] {
-    margin-bottom: 20px;
-    padding: 4px 4px 4px 6px;
-    border: none;
-    border-bottom: 1px solid #AAA;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 1.3em;
-    transition: 0.2s ease; }
-
-input[type="text"]:focus {
-    transition: 0.2s ease;
-    outline: none;
-=======
 .contact-for{
     margin-top: 7%;
 }
@@ -1004,7 +977,7 @@ input[type="text"]:focus {
     line-height: 26px;
     font-weight: 400;
 }
- .input-text:focus {
+.input-text:focus {
     outline: none;
 }
 .input-text:focus + .label, .contact-for .input-text.not-empty + .label {
@@ -1024,7 +997,6 @@ input[type="text"]:focus {
     cursor: text;
     -webkit-transition: -webkit-transform .2s ease-in-out;
     transition: -webkit-transform .2s ease-in-out;
->>>>>>> 174c1851f4cd8c720cc2dd2b749e9df86c3da9f3
 }
 
 .submit-btn {
@@ -1060,7 +1032,6 @@ input[type="text"]:focus {
 
 input[type="text"]:focus {
     border-bottom: 2px solid #8d87b5;
-    color: #ccc;
     transition: 0.2s ease;
 }
 input[type="email"]:focus {
