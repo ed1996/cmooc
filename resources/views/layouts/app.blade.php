@@ -64,13 +64,13 @@
                         @if (Auth::check() and auth()->user()->isAdmin)
                             <li><a href="{{ url('/') }}">Accueil</a></li>
                             <li><a href="{{ route('formation.index') }}">Formation</a></li>
-                            <li><a href="{{ url('/') }}">Participer</a></li>
+                            <li><a href="{{ url('/formations.create') }}">Participer</a></li>
                             <li><a href="{{ url('/contact') }}">Contact</a></li>
                             <li><a href="{{ route('formation.index') }}">Administration</a></li>
                         @endif
                             <li><a href="{{ url('/') }}">Accueil</a></li>
                             <li><a href="{{ route('formation.index') }}">Formation</a></li>
-                            <li><a href="{{ url('/') }}">Participer</a></li>
+                            <li><a href="{{ url('/formations.create') }}">Participer</a></li>
                             <li><a href="{{ url('/contact') }}">Contact</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">

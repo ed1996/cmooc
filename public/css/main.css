@@ -933,10 +933,12 @@ a {
 ********************************************************************************/
 
 .contact {
-    text-align: center; }
+    text-align: center;
+height: 350px;}
 .contact h1 {
     font-size: 45px;
-    color: white; }
+    color: white;
+margin-top: 5%;}
 .contact p {
     font-size: 16px;
     text-align: center;
@@ -1100,6 +1102,18 @@ input[type="email"]:focus {
     text-decoration: none;
     text-shadow: -1px -1px 0 #5cacd6;
     transition: all 250ms linear; }
+
+
+
+.sujet-container {
+    background: url(../uploads/avatars/code.jpg) no-repeat center fixed;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
 
 /*******************************************************************************
 
