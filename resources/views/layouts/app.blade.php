@@ -11,8 +11,8 @@
     <title>Learn4Ever @yield('title')</title>
 
     <!-- Styles -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="{{ URL::asset('css/bootstrap/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('css/font-awesome/font-awesome.min.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ URL::asset('css/main.css') }}"/>
 
     <!-- Custom Fonts -->
@@ -21,7 +21,7 @@
     <link rel="icon" type="image/png" href="{{URL::asset('uploads/avatars/Logos.png')}}" />
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+    <!--[if lt IE 9]-->
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 
@@ -65,12 +65,29 @@
                             <li><a href="{{ url('/') }}">Accueil</a></li>
                             <li><a href="{{ route('formation.index') }}">Formation</a></li>
                             <li><a href="{{ url('/') }}">Participer</a></li>
+                            <li><a href="{{ url('/forum') }}">Forum</a></li>
                             <li><a href="{{ url('/contact') }}">Contact</a></li>
                             <li><a href="{{ route('formation.index') }}">Administration</a></li>
-                        @endif
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                    {{ Auth::user()->name }} <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li>
+                                        <a href="{{ url('logout') }}">
+                                            Déconnexion
+                                        </a>
+                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                            {{ csrf_field() }}
+                                        </form>
+                                    </li>
+                                </ul>
+                            </li>
+                        @else
                             <li><a href="{{ url('/') }}">Accueil</a></li>
                             <li><a href="{{ route('formation.index') }}">Formation</a></li>
                             <li><a href="{{ url('/') }}">Participer</a></li>
+                            <li><a href="{{ url('/forum') }}">Forum</a></li>
                             <li><a href="{{ url('/contact') }}">Contact</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -87,6 +104,7 @@
                                 </li>
                             </ul>
                         </li>
+                            @endif
                     @endif
                 </ul>
             </div>
@@ -135,17 +153,17 @@
 </div>
 
 <!-- Scripts -->
-<script src="{{ URL::asset('/js/app.js') }}"></script>
-<script src="vendor/jquery/jquery.min.js"></script>
+<script src="{{ URL::asset('js/app.js') }}"></script>
+<script src="{{ URL::asset('js/jquery-3.2.1.min.js') }}"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="{{ URL::asset('js/bootstrap.min.js') }}"></script>
 
-<!-- Contact Form JavaScript -->
-<script src="js/jqBootstrapValidation.js"></script>
-<script src="js/contact_me.js"></script>
 
-<!-- Theme JavaScript -->
-<script src="js/clean-blog.min.js"></script>
+
+
+
+
+
 </body>
 </html>
