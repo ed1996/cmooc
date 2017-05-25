@@ -49,7 +49,7 @@ nav .navbar-nav > li > a:after {
     width: 0%;
     bottom: 10px;
     left: 0;
-    background: purple;
+    background:#9367f3;
     transition: .3s ease; }
 nav .navbar-right {
     margin-left: 40% !important;
@@ -122,8 +122,7 @@ nav img {
 }
 
 .backbox{
-    background-image: url("../uploads/avatars/fond.jpg");
-    -webkit-background-size: cover;
+    background: url("../uploads/avatars/fond.jpg");
     background-size: cover;
     width: 100%;
     position: absolute;
@@ -159,6 +158,9 @@ a{
         margin-top: 0;
 
     }
+    .backbox{
+        background: url("../uploads/avatars/fond.jpg") no-repeat center fixed;
+    }
 
 }
 @media screen and (min-width:760px) and (max-width:1024px){
@@ -187,6 +189,9 @@ a{
         margin-top: 0;
 
     }
+    .backbox{
+        background: url("../uploads/avatars/fond.jpg") no-repeat center fixed;
+    }
 }
 
 @media screen and (min-width:1024px) {
@@ -214,7 +219,6 @@ a{
         padding: 20px;
         text-align: center;
         border: 2px solid black;
-
         height: 130%;
         width: 38%;
         margin-top: -3%;
@@ -279,15 +283,52 @@ a{
     margin-bottom: 10%;
 }
 
+<<<<<<< HEAD
+=======
+
+.textconnexion button {
+    background-color: rgba(255, 255, 255, 0.29);
+    border: 2px solid white;
+    border-radius: 14px;
+    color: black;
+    font-size: 19px;
+    box-sizing: content-box;
+    font-weight: 400;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 31%;
+    padding-top: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+
+}
+
+.contact-form h2{
+    font-size:32px;
+    color: #9367f3;
+    margin-bottom: 10%;
+}
+
+
+
+.contact-form button:focus {
+    outline: none;
+}
+.contact-form button:hover{
+    background: #9367f3;
+    color: #f0eef1;
+}
+>>>>>>> 174c1851f4cd8c720cc2dd2b749e9df86c3da9f3
 .contact-form button{
     background-color: #f0eef1;
-    border: 2px solid white;
     color: #9367f3;
     font-size: 16px;
     box-sizing: content-box;
     font-weight: 400;
     border-radius: 10px;
-    position: absolute;
+    position: relative;
+    border: 0;
+    transition: 0.3s linear;
 
 }
 
@@ -340,6 +381,13 @@ form.contact-form   {
     border:           0;
     text-align:        left;
 }
+
+
+
+
+
+
+
 
 /*******************************************************************************
 
@@ -896,12 +944,15 @@ a {
 .contact p {
     font-size: 16px;
     text-align: center;
-    color: white; }
+    color: white;
+}
 
 .contact-container {
-    background: url('../uploads/avatars/fond-degrade.jpg') no-repeat;
+    background: url('../uploads/avatars/email.jpg') no-repeat center fixed;
+    margin: 0;
+    padding: 0;
+    -webkit-background-size: cover;
     background-size: cover;
-    padding-bottom: 50px;
 }
 .login-box {
     margin-top: 32px;
@@ -909,7 +960,8 @@ a {
     min-height: 340px;
     background: #FFF;
     border-radius: 2px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); }
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
 
 .left {
     padding: 40px;
@@ -918,6 +970,7 @@ input:focus {
     outline: none;
 }
 
+<<<<<<< HEAD
 input[type="text"] {
     margin-bottom: 20px;
     padding: 4px 4px 4px 6px;
@@ -931,32 +984,91 @@ input[type="text"] {
 input[type="text"]:focus {
     transition: 0.2s ease;
     outline: none;
+=======
+.contact-for{
+    margin-top: 7%;
 }
 
-input[type="submit"] {
-    margin-top: 28px;
-    width: 120px;
-    height: 32px;
-    background: #8d87b5;
+.titi{
+    width: 50%;
+}
+.tata{
+    width: 77%;
+}
+.contact-for .input-text {
+    display: block;
+    height: 76px;
+    border-width: 0 0 2px 0;
+    border-color: #000;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+ .input-text:focus {
+    outline: none;
+}
+.input-text:focus + .label, .contact-for .input-text.not-empty + .label {
+    -webkit-transform: translateY(-24px);
+    transform: translateY(-24px);
+}
+
+.contact-for .label {
+    position: absolute;
+    left: 20px;
+    bottom: 11px;
+    font-family: Lusitana, serif;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #888;
+    cursor: text;
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    transition: -webkit-transform .2s ease-in-out;
+>>>>>>> 174c1851f4cd8c720cc2dd2b749e9df86c3da9f3
+}
+
+.submit-btn {
+    position: relative;
+    color: #9367f3;
+    background-color: #f0eef1;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 10px;
+    border: 0;
+    transition: 0.3s linear;
+    display: inline-block;
+    line-height: 24px;
+    padding: 8px 49px;
     border: none;
-    border-radius: 2px;
-    color: #FFF;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
-    transition: 0.1s ease;
-    cursor: pointer; }
+    cursor: pointer;
+}
 
-input[type="submit"]:hover,
-input[type="submit"]:focus {
-    opacity: 0.8;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-    transition: 0.1s ease; }
+.submit-btn:focus {
+    outline: none;
+}
+.submit-btn:hover{
+    background: #9367f3;
+    color: #f0eef1;
+}
+.for-field{
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 10%;
+}
 
-input[type="submit"]:active {
-    opacity: 1;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
-    transition: 0.1s ease; }
+
+
+input[type="text"]:focus {
+    border-bottom: 2px solid #8d87b5;
+    color: #ccc;
+    transition: 0.2s ease;
+}
+input[type="email"]:focus {
+    border-bottom: 2px solid #8d87b5;
+    color: #ccc;
+    transition: 0.2s ease;
+}
+
 .fa-facebook {
     color: white;
     padding: 5px; }
@@ -1117,3 +1229,7 @@ main {
         margin-bottom: 30px;
         padding-left: 0px;
         padding-right: 0px; } }
+
+
+
+

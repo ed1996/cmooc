@@ -5,7 +5,7 @@
 @section('content')
     <div class="container-fluid contact-container">
         <div class="row">
-            <div class="col-xs-12 col-sm-8 col-md-8">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div class="contact">
                     <h1>CONTACT</h1>
                     <br/>
@@ -22,22 +22,30 @@
 
                 </div>
             </div>
-
-            <div class="col-xs-12 col-sm-4 col-md-4">
-                <div class="login-box">
-                    <div class="left">
-                        <form method="POST" action="{{route('contact_store')}}">
-                            {{csrf_field()}}
-                            <input type="text" name="name" placeholder="Nom et prénom" />
-                            <input type="text" name="email" placeholder="E-mail" />
-                            <textarea name="content" id="" cols="30" rows="10"></textarea>
-                            <input type="submit" name="signup_submit" value="Envoyer" />
-                        </form>
-                    </div>
-
-                </div>
-            </div>
         </div>
+
+        <form class="contact-for row"  method="POST" action="{{route('contact_store')}}">
+            {{csrf_field()}}
+            <div class="form-field col-lg-5 col-md-5 col-s-12 col-lg-offset-2 col-md-offset-2">
+                <input id="name" class="input-text js-input titi " type="text" required>
+                <label class="label" for="name">Name</label>
+            </div>
+            <div class="form-field col-lg-5 col-md-5 col-s-12 ">
+                <input id="email" class="input-text js-input titi " type="email" required>
+                <label class="label" for="email">E-mail</label>
+            </div> <br><br><br><br><br>
+            <div class="form-field message col-lg-10 col-md-10 col-lg-offset-2 col-md-offset-2">
+                <textarea id="message" class="input-text js-input tata" type="text" required></textarea>
+                <label class="label" for="message">Message</label>
+
+            </div>
+            <div class="for-field">
+                <input class="submit-btn" type="submit" value="Envoyer">
+            </div>
+        </form>
     </div>
+
+
+
 
 @endsection
