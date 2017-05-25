@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="522b4da3-bef7-45dc-ab17-6f5d2713e4bf" name="Default" comment="">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/avatars/google-plus-icon-logo.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/avatars/txitter.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/uploads/avatars/téléchargement.png" />
@@ -17,6 +18,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/main.css" afterPath="$PROJECT_DIR$/public/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
 >>>>>>> 174c1851f4cd8c720cc2dd2b749e9df86c3da9f3
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/main.css" afterPath="$PROJECT_DIR$/public/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/formations/create.blade.php" afterPath="$PROJECT_DIR$/resources/views/formations/create.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+>>>>>>> 8d7424bea033d4c045b6047c38ca86183933ab2d
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,27 +46,41 @@
         <entry file="file://$PROJECT_DIR$/public/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="7620">
               <caret line="508" column="16" lean-forward="false" selection-start-line="508" selection-start-column="16" selection-end-line="508" selection-end-column="16" />
 =======
             <state relative-caret-position="15690">
               <caret line="1046" column="0" selection-start-line="1046" selection-start-column="0" selection-end-line="1046" selection-end-column="0" />
+=======
+            <state relative-caret-position="360">
+              <caret line="1108" column="71" selection-start-line="1108" selection-start-column="71" selection-end-line="1108" selection-end-column="71" />
+>>>>>>> 8d7424bea033d4c045b6047c38ca86183933ab2d
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/app.js">
+      <file leaf-file-name="create.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/formations/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="576">
               <caret line="49" column="3" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
 >>>>>>> 174c1851f4cd8c720cc2dd2b749e9df86c3da9f3
               <folding />
+=======
+            <state relative-caret-position="273">
+              <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+              <folding>
+                <element signature="e#1512#1554#0#HTML" expanded="true" />
+              </folding>
+>>>>>>> 8d7424bea033d4c045b6047c38ca86183933ab2d
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
@@ -68,6 +89,15 @@
         <entry file="file://$PROJECT_DIR$/public/favicon.ico">
           <provider selected="true" editor-type-id="images">
             <state />
+=======
+      <file leaf-file-name="faq.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/faq.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="35" />
+              <folding />
+            </state>
+>>>>>>> 8d7424bea033d4c045b6047c38ca86183933ab2d
           </provider>
         </entry>
       </file>
@@ -102,9 +132,14 @@
       <file leaf-file-name="contact.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/contact.blade.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="288">
               <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
 >>>>>>> 174c1851f4cd8c720cc2dd2b749e9df86c3da9f3
+=======
+            <state relative-caret-position="213">
+              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="60" selection-end-column="15" />
+>>>>>>> 8d7424bea033d4c045b6047c38ca86183933ab2d
               <folding />
             </state>
           </provider>
@@ -120,14 +155,14 @@
       <file leaf-file-name="register.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state relative-caret-position="-335">
               <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
@@ -138,6 +173,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
@@ -148,10 +184,17 @@
 =======
             <state relative-caret-position="468">
               <caret line="108" column="37" selection-start-line="108" selection-start-column="37" selection-end-line="108" selection-end-column="37" />
+=======
+      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="72" column="60" selection-start-line="72" selection-start-column="60" selection-end-line="72" selection-end-column="60" />
+>>>>>>> 8d7424bea033d4c045b6047c38ca86183933ab2d
               <folding>
-                <marker date="1495698827000" expanded="true" signature="1452:1519" ph="..." />
-                <marker date="1495698827000" expanded="true" signature="1465:1517" ph="..." />
-                <marker date="1495698827000" expanded="true" signature="1466:1516" ph="..." />
+                <marker date="1495729558000" expanded="true" signature="1452:1519" ph="..." />
+                <marker date="1495729558000" expanded="true" signature="1465:1517" ph="..." />
+                <marker date="1495729558000" expanded="true" signature="1466:1516" ph="..." />
               </folding>
 >>>>>>> 174c1851f4cd8c720cc2dd2b749e9df86c3da9f3
             </state>
@@ -179,6 +222,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -203,6 +247,8 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> 8d7424bea033d4c045b6047c38ca86183933ab2d
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -245,12 +291,16 @@
         <option value="$PROJECT_DIR$/public/js/app.js" />
         <option value="$PROJECT_DIR$/resources/views/contact.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/formations/create.blade.php" />
         <option value="$PROJECT_DIR$/public/css/main.css" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+=======
+        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+>>>>>>> 8d7424bea033d4c045b6047c38ca86183933ab2d
       </list>
     </option>
   </component>
@@ -347,10 +397,57 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
 <<<<<<< HEAD
+<<<<<<< HEAD
               <option name="myItemId" value="formations" />
 =======
+=======
+              <option name="myItemId" value="Posts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmooc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmooc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+>>>>>>> 8d7424bea033d4c045b6047c38ca86183933ab2d
               <option name="myItemId" value="layouts" />
 >>>>>>> 174c1851f4cd8c720cc2dd2b749e9df86c3da9f3
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmooc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmooc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="formations" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -591,17 +688,25 @@
       <workItem from="1495628588486" duration="214000" />
 =======
       <workItem from="1495376783097" duration="30011000" />
+<<<<<<< HEAD
       <workItem from="1495567770078" duration="16515000" />
 >>>>>>> 174c1851f4cd8c720cc2dd2b749e9df86c3da9f3
+=======
+      <workItem from="1495567770078" duration="19910000" />
+>>>>>>> 8d7424bea033d4c045b6047c38ca86183933ab2d
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="33570000" />
 =======
     <option name="totallyTimeSpent" value="46526000" />
 >>>>>>> 174c1851f4cd8c720cc2dd2b749e9df86c3da9f3
+=======
+    <option name="totallyTimeSpent" value="49921000" />
+>>>>>>> 8d7424bea033d4c045b6047c38ca86183933ab2d
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -650,6 +755,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -713,6 +819,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 8d7424bea033d4c045b6047c38ca86183933ab2d
     <entry file="file://$PROJECT_DIR$/public/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -760,9 +868,9 @@
         <state relative-caret-position="195">
           <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="85" />
           <folding>
-            <marker date="1495698827000" expanded="true" signature="1452:1519" ph="..." />
-            <marker date="1495698827000" expanded="true" signature="1465:1517" ph="..." />
-            <marker date="1495698827000" expanded="true" signature="1466:1516" ph="..." />
+            <marker date="1495729558000" expanded="true" signature="1452:1519" ph="..." />
+            <marker date="1495729558000" expanded="true" signature="1465:1517" ph="..." />
+            <marker date="1495729558000" expanded="true" signature="1466:1516" ph="..." />
           </folding>
 >>>>>>> 174c1851f4cd8c720cc2dd2b749e9df86c3da9f3
         </state>
@@ -920,6 +1028,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/resources/views/faq.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
@@ -929,6 +1038,9 @@
     </entry>
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FormationController.php">
+=======
+    <entry file="file://$PROJECT_DIR$/resources/views/Posts/show.blade.php">
+>>>>>>> 8d7424bea033d4c045b6047c38ca86183933ab2d
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-435">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1013,7 +1125,19 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/resources/views/contact.blade.php">
+=======
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+>>>>>>> 8d7424bea033d4c045b6047c38ca86183933ab2d
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="26" lean-forward="false" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
@@ -1034,6 +1158,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
@@ -1056,6 +1181,11 @@
             <marker date="1495698827000" expanded="true" signature="1466:1516" ph="..." />
           </folding>
         </state>
+=======
+    <entry file="file://$PROJECT_DIR$/sujet.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+>>>>>>> 8d7424bea033d4c045b6047c38ca86183933ab2d
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/favicon.ico">
@@ -1063,36 +1193,63 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-335">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/contact.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+        <state relative-caret-position="213">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="60" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/faq.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15690">
-          <caret line="1046" column="0" selection-start-line="1046" selection-start-column="0" selection-end-line="1046" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="450">
           <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
 >>>>>>> 174c1851f4cd8c720cc2dd2b749e9df86c3da9f3
+=======
+        <state relative-caret-position="360">
+          <caret line="1108" column="71" selection-start-line="1108" selection-start-column="71" selection-end-line="1108" selection-end-column="71" />
+>>>>>>> 8d7424bea033d4c045b6047c38ca86183933ab2d
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/formations/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+          <folding>
+            <element signature="e#1512#1554#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="72" column="60" selection-start-line="72" selection-start-column="60" selection-end-line="72" selection-end-column="60" />
+          <folding>
+            <marker date="1495729558000" expanded="true" signature="1452:1519" ph="..." />
+            <marker date="1495729558000" expanded="true" signature="1465:1517" ph="..." />
+            <marker date="1495729558000" expanded="true" signature="1466:1516" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
