@@ -29,9 +29,26 @@
                     <div class="panel-body">
                         <form method="POST" action="{{ route('formation.store') }}">
                             {{csrf_field()}}
-                            <input class="form-control" type="text" name="title" placeholder="Catégorie du sujet"> <br>
-                            <textarea class="form-control" name="content" placeholder="Titre du sujet"></textarea><br>
+
+                            <label class="newsujet" for="name">Catégorie du sujet</label>
+                                <a class="form-control btn-default btn-select btn-select-light">
+                                    <input type="hidden" class="btn-select-input" id="" name="" value="" />
+                                    <span class="btn-select-value">Catégorie du sujet</span>
+                                    <span class='btn-select-arrow glyphicon glyphicon-chevron-down'></span>
+                                    <ul>
+                                        <li>Option 1</li>
+                                        <li>Option 2</li>
+                                        <li>Option 3</li>
+                                        <li>Option 4</li>
+                                    </ul>
+                                </a>
+
+
+                            <label class="newsujet" for="name">Titre du sujet</label>
+                            <input class="form-control" name="content" placeholder="Titre du sujet"></input><br>
+                            <label class="newsujet" for="name">Proposition ( .JPEG, .PDF )</label>
                             <textarea class="form-control" name="images" placeholder="Proposition"></textarea><br>
+
                             <input type="submit" value="publier" class="submit-btn" style=" margin-left: 38%; margin-top: 4%;">
                         </form>
                     </div>
