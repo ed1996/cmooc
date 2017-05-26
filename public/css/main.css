@@ -44,7 +44,10 @@ nav {
     background: black;
     border: none;
     border-radius: 0; }
-
+.navbar-header{
+    margin-right: -15px !important;
+    margin-left: -15px !important;
+}
 nav .navbar-nav > li > a:after {
     content: "";
     position: absolute;
@@ -1039,7 +1042,7 @@ input[type="text"]:focus {
 }
 input[type="email"]:focus {
     border-bottom: 2px solid #8d87b5;
-    color: #ccc;
+    color: black;
     transition: 0.2s ease;
 }
 
@@ -1295,3 +1298,36 @@ main {
 
 ********************************************************************************/
 
+.degrade {
+    font-size:15px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#83c0e0), to(#8d87b5));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.degrade-titre{
+    background: -webkit-gradient(linear, left top, left bottom, from(#9367f3), to(#88bff1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+
+.post-title{
+    background: -webkit-gradient(linear, left top, left bottom, from(#9367f3), to(#88bff1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.lead{
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+.post-subtitle{
+    font-size: 16px;
+}

@@ -23,6 +23,7 @@
                 </div>
             </div>
         </div>
+        </div>
 
         <form class="contact-for row"  method="POST" action="{{route('contact_store')}}">
             {{csrf_field()}}
@@ -43,8 +44,7 @@
                 <input class="submit-btn" type="submit" value="Envoyer">
             </div>
         </form>
-    </div>
-
+    </div
 
 
 
