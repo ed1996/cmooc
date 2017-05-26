@@ -53,7 +53,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     @if (Auth::guest())
                         <li><a href="{{ url('/') }}">Accueil</a></li>
-                        <li><a href="{{ route('formation.index') }}">Formation</a></li>
+                        <li><a href="{{ route('cour.index') }}">Cours</a></li>
                         <li><a href="{{ url('/') }}">Participer</a></li>
                         <li><a href="{{ url('/contact') }}">Contact</a></li>
                         <li class="vertical_line">|</li>
@@ -61,11 +61,11 @@
                     @else
                         @if (Auth::check() and auth()->user()->isAdmin)
                             <li><a href="{{ url('/') }}">Accueil</a></li>
-                            <li><a href="{{ route('formation.index') }}">Formation</a></li>
+                            <li><a href="{{ route('cour.index') }}">Formation</a></li>
                             <li><a href="{{ url('/') }}">Participer</a></li>
-                            <li><a href="{{ url('/forum') }}">Forum</a></li>
+                            <li><a href="{{ route('formation.index') }}">Forum</a></li>
                             <li><a href="{{ url('/contact') }}">Contact</a></li>
-                            <li><a href="{{ route('formation.index') }}">Administration</a></li>
+                            <li><a href="{{ route('login') }}">Administration</a></li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                                     {{ Auth::user()->name }} <span class="caret"></span>
@@ -81,28 +81,31 @@
                                     </li>
                                 </ul>
                             </li>
-                        @else
-                            <li><a href="{{ url('/') }}">Accueil</a></li>
-                            <li><a href="{{ route('formation.index') }}">Formation</a></li>
-                            <li><a href="{{ url('/') }}">Participer</a></li>
-                            <li><a href="{{ url('/forum') }}">Forum</a></li>
-                            <li><a href="{{ url('/contact') }}">Contact</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                                {{ Auth::user()->name }} <span class="caret"></span>
-                            </a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li>
-                                    <a href="{{ url('logout') }}">
-                                        Déconnexion
+                        @endif
+                    @if(Auth::check() != auth()->user()->isAdmin)
+                                    <li><a href="{{ url('/') }}">Accueil</a></li>
+                                    <li><a href="{{ route('cour.index') }}">Cours</a></li>
+                                    <li><a href="{{ url('/') }}">Participer</a></li>
+                                    <li><a href="{{ route('formation.index') }}">Forum</a></li>
+                                    <li><a href="{{ url('/contact') }}">Contact</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                        {{ Auth::user()->name }} <span class="caret"></span>
                                     </a>
-                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                        {{ csrf_field() }}
-                                    </form>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li>
+                                            <a href="{{ url('logout') }}">
+                                                Déconnexion
+                                            </a>
+                                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                                {{ csrf_field() }}
+                                            </form>
+                                        </li>
+                                    </ul>
                                 </li>
-                            </ul>
-                        </li>
-                            @endif
+
+                        @endif
+
                     @endif
                 </ul>
             </div>

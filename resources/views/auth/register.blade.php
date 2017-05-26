@@ -18,12 +18,10 @@
                     <form class="form-horizontal" role="form" method="POST" action="{{ route('register') }}">
                       {{ csrf_field() }}
 
-                      <select name="isAdmin" style="display:none;">
+                      <select name="isAdmin">
                             <option value="0">Utilisateur</option>
                             <option value="1">Administrateur</option>
                         </select>
-
-
 
                         <ul>
                             <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">

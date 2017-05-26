@@ -300,6 +300,8 @@ class ComposerStaticInit512fb7f483a549ed5c91aa01c441d031
         'CreateArticlesTable' => __DIR__ . '/../..' . '/database/migrations/2017_03_30_202822_create_articles_table.php',
         'CreateCommentsTable' => __DIR__ . '/../..' . '/database/migrations/2017_05_07_211845_create_comments_table.php',
         'CreateContact' => __DIR__ . '/../..' . '/database/migrations/2017_05_22_065504_create_contact.php',
+        'CreateCourTable' => __DIR__ . '/../..' . '/database/migrations/2017_05_25_211512_create_cour_table.php',
+        'CreateCoursTable' => __DIR__ . '/../..' . '/database/migrations/2017_05_25_210822_create_cours_table.php',
         'CreateFormationsTable' => __DIR__ . '/../..' . '/database/migrations/2017_05_07_204725_create_formations_table.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
         'CreatePostsTable' => __DIR__ . '/../..' . '/database/migrations/2017_05_07_211522_create_posts_table.php',

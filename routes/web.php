@@ -32,6 +32,8 @@ Route::resource('/formation', 'FormationController');
 Route::resource('/post', 'PostController');
 Route::resource('/comment', 'CommentController');
 
+Route::resource('/cour', 'CourController');
+
 Route::get('contact',
     ['as' => 'contact', 'uses' => 'AboutController@create']);
 Route::post('contact',
