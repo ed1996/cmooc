@@ -54,7 +54,7 @@
                     @if (Auth::guest())
                         <li><a href="{{ url('/') }}">Accueil</a></li>
                         <li><a href="{{ route('cour.index') }}">Cours</a></li>
-                        <li><a href="{{ url('/') }}">Participer</a></li>
+                        <li><a href="{{ route('cour.create') }}">Participer</a></li>
                         <li><a href="{{ url('/contact') }}">Contact</a></li>
                         <li class="vertical_line">|</li>
                         <li><a href="{{ url('/login') }}" class="connexion">Connexion</a></li>
@@ -62,7 +62,7 @@
                         @if (Auth::check() and auth()->user()->isAdmin)
                             <li><a href="{{ url('/') }}">Accueil</a></li>
                             <li><a href="{{ route('cour.index') }}">Formation</a></li>
-                            <li><a href="{{ url('/') }}">Participer</a></li>
+                            <li><a href="{{ route('cour.create') }}">Participer</a></li>
                             <li><a href="{{ route('formation.index') }}">Forum</a></li>
                             <li><a href="{{ url('/contact') }}">Contact</a></li>
                             <li><a href="{{ route('login') }}">Administration</a></li>
@@ -85,7 +85,7 @@
                     @if(Auth::check() != auth()->user()->isAdmin)
                                     <li><a href="{{ url('/') }}">Accueil</a></li>
                                     <li><a href="{{ route('cour.index') }}">Cours</a></li>
-                                    <li><a href="{{ url('/') }}">Participer</a></li>
+                                    <li><a href="{{ route('cour.create') }}">Participer</a></li>
                                     <li><a href="{{ route('formation.index') }}">Forum</a></li>
                                     <li><a href="{{ url('/contact') }}">Contact</a></li>
                                 <li class="dropdown">
@@ -126,7 +126,7 @@
                         <ul>
                             <a href="{{ url('/contact') }}"><li>Contactez-nous</li></a>
                             <a href="{{ url('/register') }}"><li>Inscrivez-vous</li></a>
-                            <a href="{{ url('/create') }}"><li>Proposer un cours ou une connaissance</li></a>
+                            <a href="{{ route('cour.create') }}"><li>Proposer un cours ou une connaissance</li></a>
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6">

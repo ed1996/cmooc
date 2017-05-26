@@ -11,7 +11,7 @@
                 <br><br>
                 <div class="site-heading">
                     <h1>Forum de discussion</h1>
-                    <h2>Proposer une formations</h2>
+                    <!--<h2>Proposer une formations</h2>-->
                     <a href="{{ route('formation.create') }}"> Proposer Formation</a>
                     <hr class="small">
                     <span class="subheading"></span>
