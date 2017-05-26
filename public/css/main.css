@@ -845,7 +845,6 @@ a {
 }
 .fa-html5:hover{
     color: orange;
-    position: relative;
     content: "html 5";
 }
 .fa-css3{
@@ -1330,4 +1329,52 @@ main {
 
 .post-subtitle{
     font-size: 16px;
+}
+
+
+section .menu_form {
+    position: relative;
+    height: 300px;
+    opacity: 0.6;
+    margin-top: 30px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#88bff1), to(#9367f3));
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 300;
+    transition: 1s ease;
+    cursor: pointer;
+    overflow: hidden; }
+section .menu_form:hover {
+    opacity: 1; }
+
+section .menu_form p {
+    padding-left: 40px; }
+
+section .menu_form h2 {
+    margin-top: 150px;
+    padding-left: 30px;
+    font-weight: 100;
+    font-size: 3em; }
+section .menu_form h2:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: black;
+    left: 0;
+    top: 210px; }
+section .menu_form h6 {
+    font-weight: 600;
+    padding: 20px 0 0 30px;
+    font-size: 1.3em; }
+
+.fst_div {
+    margin-left: 4.1%; }
+
+.neww{
+    font-size: 12em;
+    position: absolute;
+    height: 140px;
+    top: -20px;
+    right: -20px;
 }
