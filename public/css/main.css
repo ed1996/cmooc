@@ -60,6 +60,25 @@ nav .navbar-nav > li > a:after {
 nav .navbar-right {
     margin-left: 40% !important;
 }
+@media only screen and (max-width:768px){
+    nav .container-fluid .collapse .navbar, nav .container-fluid .collapse .navbar-right, nav .container-fluid .navbar-collapse .navbar, nav .container-fluid .navbar-collapse .navbar-right{
+        height: auto!important;
+    }
+    nav .navbar-right {
+        margin-left: 0% !important;
+        text-align: center;
+        width: 100%;
+        z-index: 999;
+    }
+    nav .container-fluid .collapse, nav .container-fluid .navbar-collapse{
+        height: 400px!important;
+        background: white;
+        z-index: 99999;
+    }
+    .navbar-collapse.in{
+        overflow-y: initial;
+    }
+}
 nav .navbar-nav > li > a {
     line-height: 40px;
     color: #515b69; }
@@ -1377,4 +1396,42 @@ section .menu_form h6 {
     height: 140px;
     top: -20px;
     right: -20px;
+}
+/*******************************************************************************
+
+===========/////////////////////// COMMENTAIRE //////////////////===============
+
+********************************************************************************/
+
+.edit {
+    position: relative;
+    color: #9367f3;
+    background-color: #f0eef1;
+    font-size: 1em;
+    font-weight: 400;
+    border-radius: 10px;
+    border: 0;
+    transition: 0.3s linear;
+    display: inline-block;
+    float: left;
+    line-height: 24px;
+    padding: 7px 15px;
+    border: none;
+    cursor: pointer;
+}
+.delete {
+    position: relative;
+    color: #9367f3;
+    background-color: #f0eef1;
+    font-size: 1em;
+    font-weight: 400;
+    border-radius: 10px;
+    border: 0;
+    transition: 0.3s linear;
+    display: inline-block;
+    float: left;
+    line-height: 24px;
+    padding: 7px 15px;
+    border: none;
+    cursor: pointer;
 }

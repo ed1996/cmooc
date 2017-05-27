@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Contact;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Mail;
 
 class AboutController extends Controller
 {
@@ -49,7 +50,7 @@ class AboutController extends Controller
 
 
         $contact->name = $request->name;
-        $contact->email = $request->email;
+        $email = $contact->email = $request->email;
         $contact->content = $request->content;
 
         $contact

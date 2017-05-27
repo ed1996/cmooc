@@ -18,12 +18,13 @@
                             {{csrf_field()}}
                             <div class="panel-heading">
                                 @if(Auth::check() and auth()->user()->isAdmin or Auth::check() and $formations = Auth::user()->id == $formation->user->id)
-                                    <a href="{{ route('formation.edit', $formation->id) }}" class="btn btn-primary">Modifier</a>
-                                    <input type="hidden" name="_method" value="DELETE">
-                                    <input class="btn btn-danger "type="submit" value="supprimer">
+                                    <a href="{{ route('formation.edit', $formation->id) }}" class="btn btn-primary edit">Modifier</a>
+                                    <input type="hidden" name="_method" value="DELETE" >
+                                    <input class="btn btn-danger delete"type="submit" value="supprimer">
                                 @endif
                             </div>
                         </form>
+
                         <div class="panel-body">
                             @if(Auth::check())
                                 <form method="POST" action="{{ route('post.store') }}">
@@ -36,17 +37,19 @@
                                     </div>
                                 </form>
                             @endif
+
                             @foreach($posts as $post)
+
                                 @if($post->formation_id == $formation->id)
                                         <p><a href="{{ route('post.show', $post->id) }}">{{ $post->title }}</a></p>
                                         <p>Post Posté par : {{$post->user->name}} </p>
 
                                     @if(Auth::check() and auth()->user()->isAdmin or Auth::check() and $posts = Auth::user()->id == $post->user->id)
-                                        <a href="{{ route('post.edit', $post->id) }}" class="btn btn-primary">Modifier</a>
+                                        <a href="{{ route('post.edit', $post->id) }}" class="edit">Modifier</a>
                                         <form method="POST" action="{{ route('post.destroy', $post->id) }}">
                                             {{ csrf_field() }}
                                             <input type="hidden" name="_method" value="delete">
-                                            <input type="submit" value="Supprimer" class="btn btn-danger">
+                                            <input type="submit" value="Supprimer" class="delete">
                                             <br><br>
                                         </form>
                                     @else

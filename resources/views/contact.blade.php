@@ -28,11 +28,11 @@
         <form class="contact-for row"  method="POST" action="{{route('contact_store')}}">
             {{csrf_field()}}
             <div class="form-field col-lg-5 col-md-5 col-s-12 col-lg-offset-2 col-md-offset-2">
-                <input id="name" class="input-text js-input titi " type="text" required>
+                <input id="name" class="input-text js-input titi " type="text" name="name" required>
                 <label class="label" for="name">Name</label>
             </div>
             <div class="form-field col-lg-5 col-md-5 col-s-12 ">
-                <input id="email" class="input-text js-input titi " type="email" required>
+                <input id="email" class="input-text js-input titi " type="email" name="email" required>
                 <label class="label" for="email">E-mail</label>
             </div> <br><br><br><br><br>
             <div class="form-field message col-lg-10 col-md-10 col-lg-offset-2 col-md-offset-2">
