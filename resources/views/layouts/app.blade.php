@@ -11,14 +11,11 @@
     <title>Learn4Ever @yield('title')</title>
 
     <!-- Styles -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href=" https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="{{ URL::asset('css/main.css') }}"/>
-    <script src="{{ URL::asset('js/jquery-3.2.1.min.js') }}"></script>
     <!-- Custom Fonts -->
-    <script src="https://s3.amazonaws.com/files.enjin.com/1428332/bootstrap3/twitter-bootstrap-hover-dropdown.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link rel="icon" type="image/png" href="{{URL::asset('uploads/avatars/Logos.png')}}" />
@@ -26,13 +23,17 @@
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]-->
 
-    
-
     <script>
         window.Laravel = {!! json_encode([
             'csrfToken' => csrf_token(),
         ]) !!};
     </script>
+    <script src="{{ URL::asset('js/app.js') }}"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-hover-dropdown/2.2.1/bootstrap-hover-dropdown.min.js"></script>
+
+
+
 
 </head>
 <body>
@@ -69,10 +70,10 @@
                             <li><a href="{{ route('formation.index') }}">Forum</a></li>
                             <li><a href="{{ url('/contact') }}">Contact</a></li>
                             <li><a href="{{ route('login') }}">Administration</a></li>
-                            <li class="dropdown">
-                                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                    {{ Auth::user()->name }} <span class="caret"></span>
-                                </a>
+                        <li>
+                            <div class="dropdown bt_dp_tg">
+                                <button class="dropdown-toggle dp_tg" type="button" data-toggle="dropdown">
+                                    {{ Auth::user()->name }} <span class="caret"></span></button>
                                 <ul class="dropdown-menu">
                                     <li>
                                         <a href="{{ url('logout') }}">
@@ -80,7 +81,8 @@
                                         </a>
                                     </li>
                                 </ul>
-                            </li>
+                            </div>
+                        </li>
                         @endif
                     @if(Auth::check() != auth()->user()->isAdmin)
                                     <li><a href="{{ url('/') }}">Accueil</a></li>
@@ -88,21 +90,18 @@
                                     <li><a href="{{ route('cour.create') }}">Participer</a></li>
                                     <li><a href="{{ route('formation.index') }}">Forum</a></li>
                                     <li><a href="{{ url('/contact') }}">Contact</a></li>
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                                        {{ Auth::user()->name }} <span class="caret"></span>
-                                    </a>
-                                    <ul class="dropdown-menu" role="menu">
+
+                                <div class="dropdown">
+                                    <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
+                                        {{ Auth::user()->name }} <span class="caret"></span></button>
+                                    <ul class="dropdown-menu">
                                         <li>
                                             <a href="{{ url('logout') }}">
                                                 Déconnexion
                                             </a>
-                                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                                {{ csrf_field() }}
-                                            </form>
                                         </li>
                                     </ul>
-                                </li>
+                                </div>
 
                         @endif
 
@@ -154,10 +153,11 @@
 
 <!-- Scripts -->
 
-<script src="{{ URL::asset('js/app.js') }}"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-hover-dropdown/2.2.1/bootstrap-hover-dropdown.min.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="{{ URL::asset('js/bootstrap.min.js') }}"></script>
+
 
 
 

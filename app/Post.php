@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Post extends Model
 {
     protected $fillable = [
-       'title', 'content', 'formation_id', 'user_id'
+     'content', 'formation_id', 'user_id'
     ];
 
     public function user() {

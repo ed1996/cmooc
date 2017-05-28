@@ -13,11 +13,11 @@ class CreateFormationsTable extends Migration
      */
     public function up()
     {
-        Schema::create('formations', function (Blueprint $table) {
+        Schema::create('forum', function (Blueprint $table) {
             $table->increments('id');
             $table->string('title');
             $table->longText('content');
-            $table->longText('images');
+            $table->longText('images')->nullable();
             $table->integer('user_id')->unsigned();
             $table->foreign('user_id')->references('id')->on('users');
             $table->timestamps();
@@ -31,6 +31,6 @@ class CreateFormationsTable extends Migration
      */
     public function down()
     {
-        Schema::drop('formations');
+        Schema::drop('forum');
     }
 }

@@ -21,7 +21,7 @@ class FormationController extends Controller
     public function index()
     {
         $formations = Formation::orderBy('id', 'DESC')->paginate(5);
-        return view('formations.index', compact('formations'));
+        return view('forum.index', compact('formations'));
     }
 
     /**
@@ -31,7 +31,7 @@ class FormationController extends Controller
      */
     public function create()
     {
-        return view('formations.create');
+        return view('forum.create');
     }
 
     /**
@@ -74,7 +74,7 @@ class FormationController extends Controller
         $posts = Post::all();
         $post = Post::find($id);
 
-        return view('formations.show', compact('formation', 'posts', 'post'));
+        return view('forum.show', compact('formation', 'posts', 'post'));
     }
 
     /**
@@ -86,7 +86,7 @@ class FormationController extends Controller
     public function edit($id)
     {
         $formation = Formation::find($id);
-        return view('formations.edit', compact('formation'));
+        return view('forum.edit', compact('formation'));
     }
 
     /**
