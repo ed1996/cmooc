@@ -5,9 +5,9 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div class="contact">
-                    <h1>UN NOUVEAU SUJET OU CONNAISSANCE ?</h1>
+                    <h1>UN NOUVEAU SUJET DE DISCUSSION ?</h1>
                     <br/>
-                    <p>Si vous souhaitez nous proposer un sujet intéressant ou une connaissance<br/> et qui rentre dans le cadre de nos formations,<br/> 
+                    <p>Si vous souhaitez poser une question à la communauté ?<br/> et qui rentre dans le cadre de nos formations,<br/> 
                         remplissez ce formulaire. </p> 
                     <br/>
                     <a href="formations.html" class="btn btn-3">Allez voir nos formations</a>

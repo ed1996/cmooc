@@ -31,9 +31,7 @@
                     <h2 class="post-title">
                         <a href="{{ route('formation.show', $formation->id) }}">{{$formation->title}}</a>
                     </h2>
-                    <h3 class="post-subtitle">
-                        <p>{{$formation->content}}</p>
-                    </h3>
+
                     <p class="post-meta">Posté par : {{ $formation->user->name }} le {{$formation->created_at}}</p>
                 @endforeach
                 {{$formations->links()}}

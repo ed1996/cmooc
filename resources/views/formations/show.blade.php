@@ -12,7 +12,6 @@
                     <div class="panel-body">
                         <h1>{{ $formation->title }}</h1>
                         <img src="{{ $formation->images }}" style: width="150px">
-                        <h2>{{ $formation->content }}</h2>
                         Partager l'article : {{URL::to('/formation/'.$formation->id)}}
                         <form method="POST" action="{{ route('formation.destroy', $formation->id)}}">
                             {{csrf_field()}}
