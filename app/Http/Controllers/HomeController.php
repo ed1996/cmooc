@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Cour;
+use App\Formation;
+use App\User;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -23,6 +26,10 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $court = Cour::orderBy('id', 'DESC')->paginate(5);
+        $formations = Formation::orderBy('id', 'DESC')->paginate(5);
+        $users = User::orderBy('id', 'DESC')->paginate(5);
+        return view('home', compact('court','formations','users'));
+
     }
 }
