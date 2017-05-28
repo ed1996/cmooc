@@ -14,7 +14,7 @@
                 <!-- First Blog Post -->
                 <h2>Un problème, besoin d'aide ?</h2>
 
-                    <!--<h2>Proposer une forum</h2>-->
+                    <!--<h2>Proposer une formations</h2>-->
                 <div class="degrade">
                     <a href="{{ route('formation.create') }}"> Poser votre question</a>
                 </div>

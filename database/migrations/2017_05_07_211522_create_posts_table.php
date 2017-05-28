@@ -19,7 +19,7 @@ class CreatePostsTable extends Migration
             $table->integer('user_id')->unsigned();
             $table->integer('formation_id')->unsigned();
             $table->foreign('user_id')->references('id')->on('users');
-            $table->foreign('formation_id')->references('id')->on('forum')->onDelete('cascade');
+            $table->foreign('formation_id')->references('id')->on('formations')->onDelete('cascade');
             $table->timestamps();
         });
     }

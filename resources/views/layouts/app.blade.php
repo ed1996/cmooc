@@ -90,18 +90,19 @@
                                     <li><a href="{{ route('cour.create') }}">Participer</a></li>
                                     <li><a href="{{ route('formation.index') }}">Forum</a></li>
                                     <li><a href="{{ url('/contact') }}">Contact</a></li>
-
-                                <div class="dropdown">
-                                    <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
-                                        {{ Auth::user()->name }} <span class="caret"></span></button>
-                                    <ul class="dropdown-menu">
-                                        <li>
-                                            <a href="{{ url('logout') }}">
-                                                Déconnexion
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
+                                <li>
+                                    <div class="dropdown bt_dp_tg">
+                                        <button class="dropdown-toggle dp_tg" type="button" data-toggle="dropdown">
+                                            {{ Auth::user()->name }} <span class="caret"></span></button>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="{{ url('logout') }}">
+                                                    Déconnexion
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
 
                         @endif
 
