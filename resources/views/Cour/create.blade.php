@@ -10,7 +10,7 @@
                     <p>Si vous souhaitez nous proposer un sujet intéressant ou une connaissance<br/> et qui rentre dans le cadre de nos formations,<br/> 
                         remplissez ce formulaire. </p> 
                     <br/>
-                    <a href="formations.html" class="btn btn-3">Allez voir nos formations</a>
+                    <a href="{{ URL::asset('../formations.create') }}" class="btn btn-3">Allez voir nos formations</a>
 
                 </div>
             </div>

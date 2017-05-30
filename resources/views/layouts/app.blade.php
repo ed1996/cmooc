@@ -137,9 +137,9 @@
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 RS">
                         <p>Suivez-nous</p>
-                        <a href=""><div class="facebook"></div></a>
-                        <a href=""><div class="twitter "></div></a>
-                        <a href=""><div class="GooglePlus"></div></a>
+                        <a href="https://www.facebook.com"><div class="facebook"></div></a>
+                        <a href="https://twitter.com/Learn_4_Ever"><div class="twitter "></div></a>
+                        <a href="https://plus.google.com/u/1/"><div class="GooglePlus"></div></a>
                     </div>
                     <div class="col-lg-12  col-md-12 col-sm-12">
                         <hr>

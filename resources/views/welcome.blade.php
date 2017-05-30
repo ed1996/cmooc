@@ -91,25 +91,25 @@
                     <div class="thumbnail-1 wow fadeInLeft justeimage col-lg-3  col-md-3  col-xs-12 col-xs-offset-2">
                         <p style="color: orange; text-align: center; font-size: 18px; margin-top: 5%;" >HTML5</p><i class="fa fa-html5" aria-hidden="true"></i>
                         <div class="caption  col-lg-3  col-md-3  col-xs-12">
-                            <h3 class="wow fadeInUp"> 3 Leçons blabla</h3>
+                            <h3 class="wow fadeInUp">4 Cours</h3>
                         </div>
                     </div>
                     <div class="thumbnail-1 wow fadeInLeft justeimage col-lg-3  col-md-3  col-xs-12 col-xs-offset-2">
                         <p style="color: turquoise; text-align: center; font-size: 18px; margin-top: 5%;" >WORDPRESS</p><i class="fa fa-wordpress" aria-hidden="true"></i>
                         <div class="caption  col-lg-3  col-md-3  col-xs-12">
-                            <h3 class="wow fadeInUp">3 Leçons blabla</h3>
+                            <h3 class="wow fadeInUp">5 Cours</h3>
                         </div>
                     </div>
                     <div class="thumbnail-1 wow fadeInLeft justeimage col-lg-3  col-md-3  col-xs-12 col-xs-offset-2">
                         <p style="color: blue; text-align: center; font-size: 18px; margin-top: 5%;" >CSS3</p><i class="fa fa-css3" aria-hidden="true"></i>
                         <div class="caption  col-lg-3  col-md-3  col-xs-12">
-                            <h3 class="wow fadeInUp">3 Leçons blabla</h3>
+                            <h3 class="wow fadeInUp">4 Cours</h3>
                         </div>
                     </div>
                     <div class="thumbnail-1 wow fadeInLeft justeimage col-lg-3  col-md-3  col-xs-12 col-xs-offset-2">
                         <p style="color: darkblue; text-align: center; font-size: 18px; margin-top: 5%;" >GITHUB</p><i class="fa fa-github" aria-hidden="true"></i>
                         <div class="caption  col-lg-3  col-md-3  col-xs-12">
-                            <h3 class="wow fadeInUp">3 Leçons blabla</h3>
+                            <h3 class="wow fadeInUp">2 Cours</h3>
                         </div>
                     </div>
                 </div>

@@ -1533,8 +1533,8 @@ section .menu_form h6 {
     color: white;
     margin-top: 5%;
 }
-.question-container{
-    background: url(../uploads/avatars/question.jpg) no-repeat center fixed;
+.question-container {
+    background: url(../uploads/avatars/code.jpg) no-repeat center fixed;
     margin: 0;
     padding: 0;
     width: 100%;
